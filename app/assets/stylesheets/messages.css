@@ -45,6 +45,30 @@
   background-color: #253141;
 
   padding: 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header name{
+}
+
+.header_name a{
+  background-color: #253141;
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.header_create_room{
+
+}
+.header_create_room a{
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+
+  border: 1px solid lightblue;
+  padding: 14px;
 }
 
 .room{
@@ -52,4 +76,17 @@
   background-color: #2F3E51;
 
   padding: 0 20px 0;
+
+  overflow: scroll;
+}
+
+.room_lists{
+
+}
+.room_name{
+  padding: 20px 0 40px;
+}
+.room_name a{
+  color: white;
+  text-decoration: none;
 }
