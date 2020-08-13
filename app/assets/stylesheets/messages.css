@@ -1,0 +1,170 @@
+:root{
+  header_height: 100;
+}
+
+.wrapper{
+  display: flex;
+}
+
+
+.main_chat{
+  width: calc(100vw - 300px);
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.main_chat_header{
+  height: 100px;
+  background-color: #FFFFFF;
+
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.current_room{
+  margin-top: 36px;
+  font-size: 24px;
+  color: #333;
+}
+
+.close_room{
+  margin-top: 40px;
+}
+
+.close_room a{
+  color: darkred;
+  text-decoration: none;
+
+  border: 1px solid darkred;
+  padding: 20px;
+}
+
+.messages{
+  height: calc(100% - 190px);
+  background-color: #FAFAFA;
+
+  padding: 46px 40px 0;
+}
+
+.message{  
+  margin-bottom: 40px;
+  padding: 10px 0;
+}
+.upper_message{
+  display: flex;
+}
+
+.message_user{
+  font-size: 16px;
+  color: #434A54;
+}
+.message_date{
+  padding-left: 10px;
+  font-size: 12px;
+  color: #999;
+}
+.message_content{
+  font-size: 14px;
+  color: #434A54;
+}
+
+.form{
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+
+  display: flex;
+}
+
+.form_input{
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+
+.form_message{
+  width: 100%;
+  background-color: white;
+  border: none;
+
+  padding-left: 10px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.form_submit{
+  background-color: #38AEF0;
+  font-size: 16px;
+  color: white;
+  border: none;
+
+  margin-left: 15px;
+  padding: 0 20px;
+}
+
+.side_bar{
+  width: 300px;
+  height: 100vh;
+  background-color: #253141;
+}
+
+.side_bar_header{
+  height: 100px;
+  background-color: #253141;
+
+  padding: 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header name{
+}
+
+.header_name a{
+  background-color: #253141;
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.header_create_room a{
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+
+  border: 1px solid lightblue;
+  padding: 14px;
+}
+
+.room{
+  height: calc(100% - 100px);
+  background-color: #2F3E51;
+
+  padding: 0 20px 0;
+
+  overflow: scroll;
+}
+
+.room_lists{
+
+}
+.room_name{
+  padding: 20px 0 40px;
+}
+.room_name a{
+  color: white;
+  text-decoration: none;
+}
