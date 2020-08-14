@@ -10,10 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< Updated upstream
-ActiveRecord::Schema.define(version: 2020_08_14_030702) do
-=======
-ActiveRecord::Schema.define(version: 2020_08_14_111444) do
+ActiveRecord::Schema.define(version: 2020_08_14_113902) do
 
   create_table "active_storage_attachments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name", null: false
@@ -45,7 +42,6 @@ ActiveRecord::Schema.define(version: 2020_08_14_111444) do
     t.index ["room_id"], name: "index_messages_on_room_id"
     t.index ["user_id"], name: "index_messages_on_user_id"
   end
->>>>>>> Stashed changes
 
   create_table "room_users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "room_id", null: false
@@ -75,12 +71,9 @@ ActiveRecord::Schema.define(version: 2020_08_14_111444) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-<<<<<<< Updated upstream
-=======
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "messages", "rooms"
   add_foreign_key "messages", "users"
->>>>>>> Stashed changes
   add_foreign_key "room_users", "rooms"
   add_foreign_key "room_users", "users"
 end
