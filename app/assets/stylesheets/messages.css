@@ -45,6 +45,8 @@
   background-color: #FAFAFA;
 
   padding: 46px 40px 0;
+
+  overflow: scroll;
 }
 
 .message{  
@@ -129,8 +131,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.header name{
 }
 
 .header_name a{
